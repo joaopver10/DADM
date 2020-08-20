@@ -12,7 +12,7 @@ http.createServer(function(req,res) {
     res.write('<p>Aprender programação é construir o futuro.</p>');
     res.write('</body>');
     res.write('</html>');     
-      
+
     res.end()
     
 }).listen(8080)
