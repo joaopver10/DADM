@@ -12,8 +12,10 @@ http.createServer(
         res.write('<title>Aula de Node.js</title>');
         res.write('</head>');
         res.write('<body>');
-        res.write('<h1>Desenvolvimento de Aplicações Web</h1>');
-        res.write('<p>Aprender programação é construir o futuro.</p>');
+        res.write('<h1>Sejam bem-vindos</h1>');
+        res.write('<p>');
+        res.write('Hoje é ' + data.retornarDia() + "/" + data.retornarMes() + "/" + data.retornarAno() + data.retornarHora() + ':' + data.retornarMinuto());
+        res.write('</p>');
         res.write('</body>');
         res.write('</html>');   
 

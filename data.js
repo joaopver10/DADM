@@ -5,7 +5,7 @@ exports.retornarDia = function() {
 }
 
 exports.retornarMes = function() {
-    return data.getMonth();
+    return data.getMonth() + 1;
 }
 
 exports.retornarAno = function() {
