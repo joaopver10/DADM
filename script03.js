@@ -29,3 +29,5 @@ http.createServer(function(req,res){
 
     res.end()
 }).listen(8080)
+
+console.log('servidor iniciando na porta 8080. Pressione Ctrl + C para encerrar')
