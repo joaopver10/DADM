@@ -8,7 +8,7 @@ http.createServer(
     function (req, res) {
         if (req.url == '/bdCadastro') {
             var form = new formidable.IncomingForm();
-
+a
             form.parse(req,
                 function (err, fields, files) {
                     res.writeHead(200, { 'Content-Type': 'text/html; charset=UTF-8' });
